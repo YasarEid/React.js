@@ -1,0 +1,52 @@
+{
+  "name": "dropzone-firebase",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@chakra-ui/react": "^1.6.9",
+    "@emotion/react": "^11.4.1",
+    "@emotion/styled": "^11.3.0",
+    "@material-ui/core": "^4.11.3",
+    "axios": "^0.22.0",
+    "bootstrap": "^5.1.1",
+    "cross-env": "^7.0.3",
+    "firebase": "^7.15.0",
+    "framer-motion": "^4.1.17",
+    "react": "^16.8.6",
+    "react-bootstrap": "^2.0.0-rc.0",
+    "react-dom": "^16.8.6",
+    "react-dropzone": "^11.4.2",
+    "react-hot-loader": "^3.1.1",
+    "react-icons": "^4.3.1",
+    "react-images": "1.0.0",
+    "react-photo-gallery": "8.0.0",
+    "react-router": "^5.0.0",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "3.0.0",
+    "set-default-browser": "^1.1.2"
+  },
+  "scripts": {
+    "start": "cross-env BROWSER=chrome react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
